@@ -1,0 +1,121 @@
+/* styles/globals.css */
+/* styles/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1b2838 0%, #171a21 100%);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Rest of your existing CSS remains the same */
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #66c0f4;
+    text-shadow: 0 0 10px #66c0f4;
+  }
+  
+  .input-section {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  input {
+    flex: 1;
+    min-width: 300px;
+    padding: 0.75rem;
+    border: 2px solid #66c0f4;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 0.75rem 1.5rem;
+    background: #66c0f4;
+    border: none;
+    color: #1b2838;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #1999ff;
+  }
+  
+  .result {
+    text-align: center;
+  }
+  
+  .result img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 1rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .result h2 {
+    color: #66c0f4;
+  }
+  
+  .game-title {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .playtime {
+    color: #acb2b8;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  footer a {
+    color: #66c0f4;
+    text-decoration: none;
+  }
+  
+  .error {
+    color: #ff4444;
+    text-align: center;
+    padding: 1rem;
+    background: rgba(255, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 1rem 0;
+  }
+  
+  .loading {
+    text-align: center;
+    margin: 1rem 0;
+    color: #66c0f4;
+  }
