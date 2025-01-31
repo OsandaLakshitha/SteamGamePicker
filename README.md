@@ -86,17 +86,24 @@ Follow the prompts to deploy your project.
 ## 📂 Project Structure
 
 ```bash
-steam-game-picker/
+SteamGamePicker/
 │
-├── api/
-│   └── getGames.js          # Serverless function to fetch Steam games
-├── index.html               # Main HTML file
-├── style.css                # Styles for the website
-├── script.js                # Frontend JavaScript logic
-├── vercel.json              # Vercel configuration file
-├── .env                     # Environment variables (not committed to Git)
-└── README.md                # This file
+├──pages/
+│   └──api/
+│   |   └── getGames.js         # Serverless function to fetch Steam games
+|   └──_app.js                  
+|   └──index.js                 # Main HTML file
+├──public/
+├──styles/
+│    └── globals.css            # Styles for the website
+.env                            # Environment variables (not committed to Git)
+.gitignore
+next.config.js
+package-lock.json
+package.json
+README.md
 ```
+
 
 ---
 
