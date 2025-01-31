@@ -103,6 +103,7 @@ export default function Home() {
         </main>
         <footer>
           <p>Made with ❤️ by <a href="https://steamcommunity.com/id/GarfieldSL/" target="_blank" rel="noopener noreferrer">GarfieldSL</a> | Powered by Steam API</p>
+          <p>Steam Awards are highly appretiated!</p>
           <p>© 2024 Steam Game Picker. All rights reserved.</p>
         </footer>
       </div>
