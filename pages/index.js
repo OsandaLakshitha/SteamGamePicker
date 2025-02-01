@@ -68,8 +68,10 @@ export default function Home() {
     <>
       <Head>
         <title>Steam Game Picker</title>
+        <meta name="author" content="GarfieldSL" />
         <meta name="description" content="Pick a random game from your Steam library" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/cloud.png" />
       </Head>
       <div className="container">
         <header>
