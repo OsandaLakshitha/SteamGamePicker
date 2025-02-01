@@ -1,6 +1,5 @@
-// pages/index.js
 import Head from 'next/head';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function Home() {
   const [loading, setLoading] = useState(false);
@@ -8,6 +7,9 @@ export default function Home() {
   const [result, setResult] = useState(null);
 
   async function fetchGames() {
+    // Ensure `document` exists (runs only in the browser)
+    if (typeof document === 'undefined') return;
+
     const steamLink = document.getElementById('steamLink').value.trim();
     setLoading(true);
     setError('');
